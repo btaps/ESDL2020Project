@@ -1,6 +1,6 @@
 ## ESDL Placement Tool Project
 
-### How to run the project locoaly
+### How to run the project locally
 
 - Clone this repository to your local terminal
 - You will need to have node package manager installed for the next steps
