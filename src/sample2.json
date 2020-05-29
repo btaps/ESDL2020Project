@@ -1,0 +1,993 @@
+[
+  {
+    "division": "EUNE1-20W21-sa5pm-BBB1",
+    "class": "EUNE",
+    "week": "20W21",
+    "day": "sa5pm",
+    "teams": [
+      {
+        "team": "A",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-A",
+        "groups": [
+          {
+            "group_code": "5648592941350912:3",
+            "num_players": 3,
+            "grank": 6.807000000000001e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "El Masterito",
+                "discord_name": "El Masterito#4665",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["top"],
+                "secondary_positions": ["jungle", "support"],
+                "rank": 68
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "One for Weeb",
+                "discord_name": "Diaconu Fynnetze#2413",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top", "jungle"],
+                "rank": 74
+              },
+              {
+                "role": "adc",
+                "in_game_name": "fanGUTA123",
+                "discord_name": "xRedWolfx#3346",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["jungle", "top"],
+                "secondary_positions": ["mid", "adc"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "Matild",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Matild",
+                "discord_name": "Matild#9878",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "WildNinja",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "WildNinja",
+                "discord_name": "WildNinja#7360",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid", "adc"],
+                "secondary_positions": ["support"],
+                "rank": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "B",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-B",
+        "groups": [
+          {
+            "group_code": "5720803144368128:2",
+            "num_players": 2,
+            "grank": 5.808e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "Dejan Senpai",
+                "discord_name": "dejanzuza1#5224",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid", "adc", "support"],
+                "secondary_positions": ["top"],
+                "rank": 58
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "Freshmaker",
+                "discord_name": "321471398321456908#7347",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["jungle"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "Enaarr",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Enaarr",
+                "discord_name": "EnarMoberg#0815",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5676461121863680:2",
+            "num_players": 2,
+            "grank": 6.408e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "kataelisepower",
+                "discord_name": "Roskata#9864",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "jungle"],
+                "secondary_positions": [],
+                "rank": 64
+              },
+              {
+                "role": "support",
+                "in_game_name": "sashopro12",
+                "discord_name": "Sasho Ganchev#8875",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "C",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-C",
+        "groups": [
+          {
+            "group_code": "RREVERIE",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "RREVERIE",
+                "discord_name": "RREVERIE#8917",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["top", "support", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5764011698159616:2",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "DaddyOlaf",
+                "discord_name": "Urgod#7424",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["jungle", "adc", "top", "support"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Roazorro",
+            "num_players": 1,
+            "grank": 5.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Roazorro",
+                "discord_name": "Roazorro#4406",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "5661929804660736:3",
+            "num_players": 2,
+            "grank": 6.808e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "GmokosFTW",
+                "discord_name": "babatunde#1826",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 74
+              },
+              {
+                "role": "support",
+                "in_game_name": "Giorgos05boom",
+                "discord_name": "gmth3h#8610",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": [],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "D",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-D",
+        "groups": [
+          {
+            "group_code": "5676688553803776:2",
+            "num_players": 2,
+            "grank": 5.408e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "POGPLANT",
+                "discord_name": "Chok Banica#1660",
+                "rank_level": "platinum",
+                "rank_tier": 2,
+                "primary_positions": ["top"],
+                "secondary_positions": ["mid"],
+                "rank": 54
+              },
+              {
+                "role": "adc",
+                "in_game_name": "TÅ M POGGERS",
+                "discord_name": "Pabloxd#7365",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Majdak33",
+            "num_players": 1,
+            "grank": 7.209e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "Majdak33",
+                "discord_name": "Majdak#1148",
+                "rank_level": "silver",
+                "rank_tier": 1,
+                "primary_positions": ["adc"],
+                "secondary_positions": ["jungle"],
+                "rank": 72
+              }
+            ]
+          },
+          {
+            "group_code": "serxho1k",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "serxho1k",
+                "discord_name": "UnknownGod#5274",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "JedaiMasterGR",
+            "num_players": 1,
+            "grank": 6.409e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "JedaiMasterGR",
+                "discord_name": "mike1993#5103",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["support"],
+                "secondary_positions": ["adc"],
+                "rank": 64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "division": "EUNE1-20W21-sa5pm-BBB2",
+    "class": "EUNE",
+    "week": "20W21",
+    "day": "sa5pm",
+    "teams": [
+      {
+        "team": "A",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-A",
+        "groups": [
+          {
+            "group_code": "5648592941350912:3",
+            "num_players": 3,
+            "grank": 6.807000000000001e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "El Masterito",
+                "discord_name": "El Masterito#4665",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["top"],
+                "secondary_positions": ["jungle", "support"],
+                "rank": 68
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "One for Weeb",
+                "discord_name": "Diaconu Fynnetze#2413",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top", "jungle"],
+                "rank": 74
+              },
+              {
+                "role": "adc",
+                "in_game_name": "fanGUTA123",
+                "discord_name": "xRedWolfx#3346",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["jungle", "top"],
+                "secondary_positions": ["mid", "adc"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "Matild",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Matild",
+                "discord_name": "Matild#9878",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "WildNinja",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "WildNinja",
+                "discord_name": "WildNinja#7360",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid", "adc"],
+                "secondary_positions": ["support"],
+                "rank": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "B",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-B",
+        "groups": [
+          {
+            "group_code": "5720803144368128:2",
+            "num_players": 2,
+            "grank": 5.808e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "Dejan Senpai",
+                "discord_name": "dejanzuza1#5224",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid", "adc", "support"],
+                "secondary_positions": ["top"],
+                "rank": 58
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "Freshmaker",
+                "discord_name": "321471398321456908#7347",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["jungle"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "Enaarr",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Enaarr",
+                "discord_name": "EnarMoberg#0815",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5676461121863680:2",
+            "num_players": 2,
+            "grank": 6.408e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "kataelisepower",
+                "discord_name": "Roskata#9864",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "jungle"],
+                "secondary_positions": [],
+                "rank": 64
+              },
+              {
+                "role": "support",
+                "in_game_name": "sashopro12",
+                "discord_name": "Sasho Ganchev#8875",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "C",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-C",
+        "groups": [
+          {
+            "group_code": "RREVERIE",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "RREVERIE",
+                "discord_name": "RREVERIE#8917",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["top", "support", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5764011698159616:2",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "DaddyOlaf",
+                "discord_name": "Urgod#7424",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["jungle", "adc", "top", "support"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Roazorro",
+            "num_players": 1,
+            "grank": 5.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Roazorro",
+                "discord_name": "Roazorro#4406",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "5661929804660736:3",
+            "num_players": 2,
+            "grank": 6.808e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "GmokosFTW",
+                "discord_name": "babatunde#1826",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 74
+              },
+              {
+                "role": "support",
+                "in_game_name": "Giorgos05boom",
+                "discord_name": "gmth3h#8610",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": [],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "D",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-D",
+        "groups": [
+          {
+            "group_code": "5676688553803776:2",
+            "num_players": 2,
+            "grank": 5.408e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "POGPLANT",
+                "discord_name": "Chok Banica#1660",
+                "rank_level": "platinum",
+                "rank_tier": 2,
+                "primary_positions": ["top"],
+                "secondary_positions": ["mid"],
+                "rank": 54
+              },
+              {
+                "role": "adc",
+                "in_game_name": "TÅ M POGGERS",
+                "discord_name": "Pabloxd#7365",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Majdak33",
+            "num_players": 1,
+            "grank": 7.209e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "Majdak33",
+                "discord_name": "Majdak#1148",
+                "rank_level": "silver",
+                "rank_tier": 1,
+                "primary_positions": ["adc"],
+                "secondary_positions": ["jungle"],
+                "rank": 72
+              }
+            ]
+          },
+          {
+            "group_code": "serxho1k",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "serxho1k",
+                "discord_name": "UnknownGod#5274",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "JedaiMasterGR",
+            "num_players": 1,
+            "grank": 6.409e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "JedaiMasterGR",
+                "discord_name": "mike1993#5103",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["support"],
+                "secondary_positions": ["adc"],
+                "rank": 64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "division": "EUNE1-20W21-sa5pm-BBB1",
+    "class": "BBB",
+    "week": "20W21",
+    "day": "tu6pm",
+    "teams": [
+      {
+        "team": "A",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-A",
+        "groups": [
+          {
+            "group_code": "5648592941350912:3",
+            "num_players": 3,
+            "grank": 6.807000000000001e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "El Masterito",
+                "discord_name": "El Masterito#4665",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["top"],
+                "secondary_positions": ["jungle", "support"],
+                "rank": 68
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "One for Weeb",
+                "discord_name": "Diaconu Fynnetze#2413",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top", "jungle"],
+                "rank": 74
+              },
+              {
+                "role": "adc",
+                "in_game_name": "fanGUTA123",
+                "discord_name": "xRedWolfx#3346",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["jungle", "top"],
+                "secondary_positions": ["mid", "adc"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "Matild",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Matild",
+                "discord_name": "Matild#9878",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "WildNinja",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "WildNinja",
+                "discord_name": "WildNinja#7360",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid", "adc"],
+                "secondary_positions": ["support"],
+                "rank": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "B",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-B",
+        "groups": [
+          {
+            "group_code": "5720803144368128:2",
+            "num_players": 2,
+            "grank": 5.808e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "Dejan Senpai",
+                "discord_name": "dejanzuza1#5224",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid", "adc", "support"],
+                "secondary_positions": ["top"],
+                "rank": 58
+              },
+              {
+                "role": "jungle",
+                "in_game_name": "Freshmaker",
+                "discord_name": "321471398321456908#7347",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["jungle"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "Enaarr",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Enaarr",
+                "discord_name": "EnarMoberg#0815",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5676461121863680:2",
+            "num_players": 2,
+            "grank": 6.408e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "kataelisepower",
+                "discord_name": "Roskata#9864",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "jungle"],
+                "secondary_positions": [],
+                "rank": 64
+              },
+              {
+                "role": "support",
+                "in_game_name": "sashopro12",
+                "discord_name": "Sasho Ganchev#8875",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "C",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-C",
+        "groups": [
+          {
+            "group_code": "RREVERIE",
+            "num_players": 1,
+            "grank": 7.609e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "RREVERIE",
+                "discord_name": "RREVERIE#8917",
+                "rank_level": "silver",
+                "rank_tier": 3,
+                "primary_positions": ["top", "support", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 76
+              }
+            ]
+          },
+          {
+            "group_code": "5764011698159616:2",
+            "num_players": 1,
+            "grank": 5.609e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "DaddyOlaf",
+                "discord_name": "Urgod#7424",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["jungle", "adc", "top", "support"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Roazorro",
+            "num_players": 1,
+            "grank": 5.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "Roazorro",
+                "discord_name": "Roazorro#4406",
+                "rank_level": "platinum",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 58
+              }
+            ]
+          },
+          {
+            "group_code": "5661929804660736:3",
+            "num_players": 2,
+            "grank": 6.808e1,
+            "players": [
+              {
+                "role": "adc",
+                "in_game_name": "GmokosFTW",
+                "discord_name": "babatunde#1826",
+                "rank_level": "silver",
+                "rank_tier": 2,
+                "primary_positions": ["adc", "top"],
+                "secondary_positions": ["mid"],
+                "rank": 74
+              },
+              {
+                "role": "support",
+                "in_game_name": "Giorgos05boom",
+                "discord_name": "gmth3h#8610",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["support"],
+                "secondary_positions": [],
+                "rank": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "D",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-D",
+        "groups": [
+          {
+            "group_code": "5676688553803776:2",
+            "num_players": 2,
+            "grank": 5.408e1,
+            "players": [
+              {
+                "role": "top",
+                "in_game_name": "POGPLANT",
+                "discord_name": "Chok Banica#1660",
+                "rank_level": "platinum",
+                "rank_tier": 2,
+                "primary_positions": ["top"],
+                "secondary_positions": ["mid"],
+                "rank": 54
+              },
+              {
+                "role": "adc",
+                "in_game_name": "TÅ M POGGERS",
+                "discord_name": "Pabloxd#7365",
+                "rank_level": "platinum",
+                "rank_tier": 3,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["adc"],
+                "rank": 56
+              }
+            ]
+          },
+          {
+            "group_code": "Majdak33",
+            "num_players": 1,
+            "grank": 7.209e1,
+            "players": [
+              {
+                "role": "jungle",
+                "in_game_name": "Majdak33",
+                "discord_name": "Majdak#1148",
+                "rank_level": "silver",
+                "rank_tier": 1,
+                "primary_positions": ["adc"],
+                "secondary_positions": ["jungle"],
+                "rank": 72
+              }
+            ]
+          },
+          {
+            "group_code": "serxho1k",
+            "num_players": 1,
+            "grank": 6.809e1,
+            "players": [
+              {
+                "role": "mid",
+                "in_game_name": "serxho1k",
+                "discord_name": "UnknownGod#5274",
+                "rank_level": "gold",
+                "rank_tier": 4,
+                "primary_positions": ["mid"],
+                "secondary_positions": ["top"],
+                "rank": 68
+              }
+            ]
+          },
+          {
+            "group_code": "JedaiMasterGR",
+            "num_players": 1,
+            "grank": 6.409e1,
+            "players": [
+              {
+                "role": "support",
+                "in_game_name": "JedaiMasterGR",
+                "discord_name": "mike1993#5103",
+                "rank_level": "gold",
+                "rank_tier": 2,
+                "primary_positions": ["support"],
+                "secondary_positions": ["adc"],
+                "rank": 64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+
