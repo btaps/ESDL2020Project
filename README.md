@@ -21,6 +21,6 @@ Got a README.md updated with instructions to clone and start app locally
 #### 5/28
 Got a menu of selections showing up after a loop around the JSON object provided. The drop down menu also uses a filter function to get the corresponding divisions to show by selections made.
 
-<img src="images/DropDownMenu.png" width="200">
+<img src="images/DropDownMenu.png" width="400">
 
 Eventually this app is going to be hosted online and I will provide a link to view it there instead of cloning it locally
