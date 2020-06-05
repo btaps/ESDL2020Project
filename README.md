@@ -26,7 +26,7 @@ Got a menu of selections showing up after a loop around the JSON object provided
 #### 6/4
 Once you click a team on the drop down menu you trigger the team boxes to appear with the corresponding players and their information. 
 
-<img src="images/teams.png" width="400">
+<img src="images/teams.png" width="600">
 
 
 
