@@ -660,14 +660,14 @@
     ]
   },
   {
-    "division": "EUNE1-20W21-sa5pm-BBB1",
+    "division": "EUNE1-20W21-tu6pm-BBB1",
     "class": "BBB",
     "week": "20W21",
     "day": "tu6pm",
     "teams": [
       {
         "team": "A",
-        "team_id": "EUNE1-20W21-sa5pm-BBB1-A",
+        "team_id": "EUNE1-20W21-sa5pm-BBB1-ABCD",
         "groups": [
           {
             "group_code": "5648592941350912:3",

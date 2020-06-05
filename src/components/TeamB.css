@@ -1,0 +1,8 @@
+.TeamB-container{
+  width: 48%;
+  border: .25rem solid red;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  margin: .5rem;
+}

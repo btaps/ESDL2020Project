@@ -1,0 +1,9 @@
+.Division-container{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: .25rem solid green;
+  width: 85%;
+}
+
+

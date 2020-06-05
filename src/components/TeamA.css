@@ -1,0 +1,24 @@
+.TeamA-container{
+  width: 48%;
+  border: .25rem solid red;
+  height: auto;
+  margin-bottom: .25rem;
+  display: flex;
+  flex-flow: column;
+  margin: .5rem;
+}
+
+.groupDiv{
+  margin: .1rem;
+  border: .15rem solid black;
+  display: flex;
+  flex-flow: column;
+}
+
+.player{
+  border: .10rem solid lightblue; 
+}
+
+.player-icon{
+  width: 30px;
+}

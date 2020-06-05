@@ -14,10 +14,10 @@ export default class DropDownMenu extends Component {
     week: null,
     dayArr: [],
     day: null,
+    division: null,
   };
-  //day = []
-  //week = []
-  //class = []
+
+  arrayOfDivisions = [];
   countHashMap = {};
   choice = {};
 
@@ -67,14 +67,18 @@ export default class DropDownMenu extends Component {
     }
   }
 
+  // Use classArr to loop through class options
   createClassOptions(classes) {
     if (this.state.classArr.length > 0) {
       let choices = this.state.classArr.map((Class) => {
-        // create a label where more than 1 instance is showned in the label
+        // Use a hash map object to keep trackOfItems
+        // If one class already exists, just include one instance of it and the total number of times this class came up
+        // Else just include the class with no numbers (hence only appeared once)
         let label =
           this.countHashMap[Class] > 1
             ? Class + ` (${this.countHashMap[Class]})`
             : Class;
+        // Return a input radio button with the class name
         return (
           <label>
             <input
@@ -119,8 +123,12 @@ export default class DropDownMenu extends Component {
         day.push(division.day);
       }
     });
-
     this.setState({ classArr: Class, weekArr: week, dayArr: day });
+  }
+
+  updateState(e) {
+    console.log(e.target.id);
+    this.setState({ division: e.target.id });
   }
 
   // Allow for radio buttons to update the choice made by admin
@@ -138,20 +146,25 @@ export default class DropDownMenu extends Component {
   };
 
   // Make drop down menu options
-  createDropDownMenuOptions() {
+  createDivisionOptions() {
+    // Use Filter function to get corresponding options
     let dropDownMenuChoices = JSON.filter(
       (divsion) =>
-        divsion.day === this.state.day &&
-        divsion.week === this.state.week &&
-        divsion.class === this.state.class
+        divsion.day === this.choice.day &&
+        divsion.week === this.choice.week &&
+        divsion.class === this.choice.class
     );
+
+    // Loop through options and display as a option in drop down menu
     let options = dropDownMenuChoices.map((division) => {
-      return <option id={division.division}>{division.division}</option>;
+      return (
+        <option onClick={this.updateState} id={division.division}>
+          {division.division}
+        </option>
+      );
     });
-    //dropDownMenuChoices.forEach((divsion) => console.log(divsion.division));
-    //return <option> hello</option>;
-    //console.log(options);
-    //console.log(dropDownMenuChoices);
+    //if (dropDownMenuChoices.length === 0) this.setState({ division: null });
+    this.arrayOfDivisions = dropDownMenuChoices;
     return options;
   }
 
@@ -159,7 +172,24 @@ export default class DropDownMenu extends Component {
     this.createSelectionOptions(JSON);
   }
 
+  updateState = this.updateState.bind(this);
+  componentDidUpdate(prevProps, prevState) {
+    //console.log(this.choice);
+    //this.updateState = this.updateState.bind(this);
+    //Object.entries(this.props).forEach(
+    //([key, val]) =>
+    //prevProps[key] !== val && console.log(`Prop '${key}' changed`)
+    //);
+    //if (this.state) {
+    //Object.entries(this.state).forEach(
+    //([key, val]) =>
+    //prevState[key] !== val && console.log(`State '${key}' changed`)
+    //);
+    //}
+  }
+  count = 0;
   render() {
+    //console.log("rendered" + this.count++);
     return (
       <div>
         <h1> Drop Down Menu</h1>
@@ -170,9 +200,9 @@ export default class DropDownMenu extends Component {
           <p>
             {" "}
             Division :
-            {this.state.day === null ||
-            this.state.week === null ||
-            this.state.class === null ? (
+            {this.choice.day === null ||
+            this.choice.week === null ||
+            this.choice.class === null ? (
               <select>
                 <option value={null}>
                   Choose a division from the dropdown menu
@@ -183,13 +213,15 @@ export default class DropDownMenu extends Component {
                 <option value={null}>
                   Choose a division from the dropdown menu
                 </option>
-
-                {this.createDropDownMenuOptions()}
+                {this.createDivisionOptions()}
               </select>
             )}
           </p>
         </div>
-        <Division />
+        <Division
+          listOfDivisions={this.arrayOfDivisions}
+          division={this.state.division}
+        />
         <Unplaced />
         <ScratchPad />
       </div>
