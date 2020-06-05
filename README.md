@@ -21,7 +21,7 @@ Got a README.md updated with instructions to clone and start app locally
 #### 5/28
 Got a menu of selections showing up after a loop around the JSON object provided. The drop down menu also uses a filter function to get the corresponding divisions to show by selections made.
 
-<img src="images/DropDownMenu.png" width="400">
+<img src="images/DropDownMenu.png" width="600">
 
 #### 6/4
 Once you click a team on the drop down menu you trigger the team boxes to appear with the corresponding players and their information. 
