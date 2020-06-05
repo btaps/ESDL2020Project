@@ -23,4 +23,11 @@ Got a menu of selections showing up after a loop around the JSON object provided
 
 <img src="images/DropDownMenu.png" width="400">
 
+#### 6/4
+Once you click a team on the drop down menu you trigger the team boxes to appear with the corresponding players and their information. 
+
+<img src="images/teams.png" width="400">
+
+
+
 Eventually this app is going to be hosted online and I will provide a link to view it there instead of cloning it locally
