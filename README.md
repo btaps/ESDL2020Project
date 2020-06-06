@@ -28,6 +28,10 @@ Once you click a team on the drop down menu you trigger the team boxes to appear
 
 <img src="images/teams.png" width="900">
 
+#### 6/5 
+Added a new radio button for server options. Also added rank number for players and a group code for each group to id them visually.
 
+<img src="images/DropDownMenu2.png" width="500">
+<img src="images/teams2.png" width="900">
 
 Eventually this app is going to be hosted online and I will provide a link to view it there instead of cloning it locally

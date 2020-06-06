@@ -1,7 +1,8 @@
 [
   {
+    "server": "EUNE",
     "division": "EUNE1-20W21-sa5pm-BBB1",
-    "class": "EUNE",
+    "class": "BBB",
     "week": "20W21",
     "day": "sa5pm",
     "teams": [
@@ -330,8 +331,9 @@
     ]
   },
   {
+    "server": "EUNE",
     "division": "EUNE1-20W21-sa5pm-BBB2",
-    "class": "EUNE",
+    "class": "BBB",
     "week": "20W21",
     "day": "sa5pm",
     "teams": [
@@ -346,7 +348,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "El Masterito",
+                "in_game_name": "El Masterito-BBB2",
                 "discord_name": "El Masterito#4665",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -356,7 +358,7 @@
               },
               {
                 "role": "jungle",
-                "in_game_name": "One for Weeb",
+                "in_game_name": "One for Weeb-BBB2",
                 "discord_name": "Diaconu Fynnetze#2413",
                 "rank_level": "silver",
                 "rank_tier": 2,
@@ -366,7 +368,7 @@
               },
               {
                 "role": "adc",
-                "in_game_name": "fanGUTA123",
+                "in_game_name": "fanGUTA123-BBB2",
                 "discord_name": "xRedWolfx#3346",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -383,7 +385,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Matild",
+                "in_game_name": "Matild-BBB2",
                 "discord_name": "Matild#9878",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -400,7 +402,7 @@
             "players": [
               {
                 "role": "support",
-                "in_game_name": "WildNinja",
+                "in_game_name": "WildNinja-BBB2",
                 "discord_name": "WildNinja#7360",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -423,7 +425,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "Dejan Senpai",
+                "in_game_name": "Dejan Senpai-BBB2",
                 "discord_name": "dejanzuza1#5224",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -433,7 +435,7 @@
               },
               {
                 "role": "jungle",
-                "in_game_name": "Freshmaker",
+                "in_game_name": "Freshmaker-BBB2",
                 "discord_name": "321471398321456908#7347",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -450,7 +452,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Enaarr",
+                "in_game_name": "Enaarr-BBB2",
                 "discord_name": "EnarMoberg#0815",
                 "rank_level": "silver",
                 "rank_tier": 3,
@@ -467,7 +469,7 @@
             "players": [
               {
                 "role": "adc",
-                "in_game_name": "kataelisepower",
+                "in_game_name": "kataelisepower-BBB2",
                 "discord_name": "Roskata#9864",
                 "rank_level": "gold",
                 "rank_tier": 2,
@@ -477,7 +479,7 @@
               },
               {
                 "role": "support",
-                "in_game_name": "sashopro12",
+                "in_game_name": "sashopro12-BBB2",
                 "discord_name": "Sasho Ganchev#8875",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -500,7 +502,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "RREVERIE",
+                "in_game_name": "RREVERIE-BBB2",
                 "discord_name": "RREVERIE#8917",
                 "rank_level": "silver",
                 "rank_tier": 3,
@@ -517,7 +519,7 @@
             "players": [
               {
                 "role": "jungle",
-                "in_game_name": "DaddyOlaf",
+                "in_game_name": "DaddyOlaf-BBB2",
                 "discord_name": "Urgod#7424",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -534,7 +536,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Roazorro",
+                "in_game_name": "Roazorro-BBB2",
                 "discord_name": "Roazorro#4406",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -551,7 +553,7 @@
             "players": [
               {
                 "role": "adc",
-                "in_game_name": "GmokosFTW",
+                "in_game_name": "GmokosFTW-BBB2",
                 "discord_name": "babatunde#1826",
                 "rank_level": "silver",
                 "rank_tier": 2,
@@ -561,7 +563,7 @@
               },
               {
                 "role": "support",
-                "in_game_name": "Giorgos05boom",
+                "in_game_name": "Giorgos05boom-BBB2",
                 "discord_name": "gmth3h#8610",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -584,7 +586,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "POGPLANT",
+                "in_game_name": "POGPLANT-BBB2",
                 "discord_name": "Chok Banica#1660",
                 "rank_level": "platinum",
                 "rank_tier": 2,
@@ -594,7 +596,7 @@
               },
               {
                 "role": "adc",
-                "in_game_name": "TÅ M POGGERS",
+                "in_game_name": "TÅ M POGGERS-BBB2",
                 "discord_name": "Pabloxd#7365",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -611,7 +613,7 @@
             "players": [
               {
                 "role": "jungle",
-                "in_game_name": "Majdak33",
+                "in_game_name": "Majdak33-BBB2",
                 "discord_name": "Majdak#1148",
                 "rank_level": "silver",
                 "rank_tier": 1,
@@ -628,7 +630,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "serxho1k",
+                "in_game_name": "serxho1k-BBB2",
                 "discord_name": "UnknownGod#5274",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -645,7 +647,7 @@
             "players": [
               {
                 "role": "support",
-                "in_game_name": "JedaiMasterGR",
+                "in_game_name": "JedaiMasterGR-BBB2",
                 "discord_name": "mike1993#5103",
                 "rank_level": "gold",
                 "rank_tier": 2,
@@ -660,7 +662,8 @@
     ]
   },
   {
-    "division": "EUNE1-20W21-tu6pm-BBB1",
+    "server": "NA",
+    "division": "EUNE1-20W21-tu6pm-BBB3",
     "class": "BBB",
     "week": "20W21",
     "day": "tu6pm",
@@ -676,7 +679,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "El Masterito",
+                "in_game_name": "El Masterito-BBB3",
                 "discord_name": "El Masterito#4665",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -686,7 +689,7 @@
               },
               {
                 "role": "jungle",
-                "in_game_name": "One for Weeb",
+                "in_game_name": "One for Weeb-BBB3",
                 "discord_name": "Diaconu Fynnetze#2413",
                 "rank_level": "silver",
                 "rank_tier": 2,
@@ -696,7 +699,7 @@
               },
               {
                 "role": "adc",
-                "in_game_name": "fanGUTA123",
+                "in_game_name": "fanGUTA123-BBB3",
                 "discord_name": "xRedWolfx#3346",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -713,7 +716,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Matild",
+                "in_game_name": "Matild-BBB3",
                 "discord_name": "Matild#9878",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -730,7 +733,7 @@
             "players": [
               {
                 "role": "support",
-                "in_game_name": "WildNinja",
+                "in_game_name": "WildNinja-BBB3",
                 "discord_name": "WildNinja#7360",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -753,7 +756,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "Dejan Senpai",
+                "in_game_name": "Dejan Senpai-BBB3",
                 "discord_name": "dejanzuza1#5224",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -763,7 +766,7 @@
               },
               {
                 "role": "jungle",
-                "in_game_name": "Freshmaker",
+                "in_game_name": "Freshmaker-BBB3",
                 "discord_name": "321471398321456908#7347",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -780,7 +783,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Enaarr",
+                "in_game_name": "Enaarr-BBB3",
                 "discord_name": "EnarMoberg#0815",
                 "rank_level": "silver",
                 "rank_tier": 3,
@@ -797,7 +800,7 @@
             "players": [
               {
                 "role": "adc",
-                "in_game_name": "kataelisepower",
+                "in_game_name": "kataelisepower-BBB3",
                 "discord_name": "Roskata#9864",
                 "rank_level": "gold",
                 "rank_tier": 2,
@@ -807,7 +810,7 @@
               },
               {
                 "role": "support",
-                "in_game_name": "sashopro12",
+                "in_game_name": "sashopro12-BBB3",
                 "discord_name": "Sasho Ganchev#8875",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -830,7 +833,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "RREVERIE",
+                "in_game_name": "RREVERIE-BBB3",
                 "discord_name": "RREVERIE#8917",
                 "rank_level": "silver",
                 "rank_tier": 3,
@@ -847,7 +850,7 @@
             "players": [
               {
                 "role": "jungle",
-                "in_game_name": "DaddyOlaf",
+                "in_game_name": "DaddyOlaf-BBB3",
                 "discord_name": "Urgod#7424",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -864,7 +867,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "Roazorro",
+                "in_game_name": "Roazorro-BBB3",
                 "discord_name": "Roazorro#4406",
                 "rank_level": "platinum",
                 "rank_tier": 4,
@@ -881,7 +884,7 @@
             "players": [
               {
                 "role": "adc",
-                "in_game_name": "GmokosFTW",
+                "in_game_name": "GmokosFTW-BBB3",
                 "discord_name": "babatunde#1826",
                 "rank_level": "silver",
                 "rank_tier": 2,
@@ -891,7 +894,7 @@
               },
               {
                 "role": "support",
-                "in_game_name": "Giorgos05boom",
+                "in_game_name": "Giorgos05boom-BBB3",
                 "discord_name": "gmth3h#8610",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -914,7 +917,7 @@
             "players": [
               {
                 "role": "top",
-                "in_game_name": "POGPLANT",
+                "in_game_name": "POGPLANT-BBB3",
                 "discord_name": "Chok Banica#1660",
                 "rank_level": "platinum",
                 "rank_tier": 2,
@@ -924,7 +927,7 @@
               },
               {
                 "role": "adc",
-                "in_game_name": "TÅ M POGGERS",
+                "in_game_name": "TÅ M POGGERS-BBB3",
                 "discord_name": "Pabloxd#7365",
                 "rank_level": "platinum",
                 "rank_tier": 3,
@@ -941,7 +944,7 @@
             "players": [
               {
                 "role": "jungle",
-                "in_game_name": "Majdak33",
+                "in_game_name": "Majdak33-BBB3",
                 "discord_name": "Majdak#1148",
                 "rank_level": "silver",
                 "rank_tier": 1,
@@ -958,7 +961,7 @@
             "players": [
               {
                 "role": "mid",
-                "in_game_name": "serxho1k",
+                "in_game_name": "serxho1k-BBB3",
                 "discord_name": "UnknownGod#5274",
                 "rank_level": "gold",
                 "rank_tier": 4,
@@ -975,7 +978,7 @@
             "players": [
               {
                 "role": "support",
-                "in_game_name": "JedaiMasterGR",
+                "in_game_name": "JedaiMasterGR-BBB3",
                 "discord_name": "mike1993#5103",
                 "rank_level": "gold",
                 "rank_tier": 2,

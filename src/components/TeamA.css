@@ -1,15 +1,14 @@
-.TeamA-container{
+.Team-container{
   width: 48%;
   border: .25rem solid red;
   height: auto;
-  margin-bottom: .25rem;
   display: flex;
   flex-flow: column;
   margin: .5rem;
 }
 
 .groupDiv{
-  margin: .1rem;
+  margin: .5rem;
   border: .15rem solid black;
   display: flex;
   flex-flow: column;
@@ -21,4 +20,14 @@
 
 .player-icon{
   width: 30px;
+}
+
+.team-h2-header{
+  margin: .25rem 0;
+  text-align: center;
+}
+
+.badge{
+  padding: .2rem;
+  align-self: flex-end;
 }

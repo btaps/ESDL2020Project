@@ -11,7 +11,7 @@ export default class TeamA extends Component {
   teamGroups = [];
 
   createTeamBox() {
-    let positionCount = 0;
+    //let positionCount = 0;
 
     if (this.props.team) {
       this.teamGroups = this.props.team.groups.map((group) => {
@@ -19,13 +19,18 @@ export default class TeamA extends Component {
           // Give icons to proper positions
           let icon;
 
-          if (positionCount === 0) icon = Top;
-          else if (positionCount === 1) icon = JG;
-          else if (positionCount === 2) icon = Mid;
-          else if (positionCount === 3) icon = Bot;
-          else if (positionCount === 4) icon = Supp;
+          //if (positionCount === 0) icon = Top;
+          //else if (positionCount === 1) icon = JG;
+          //else if (positionCount === 2) icon = Mid;
+          //else if (positionCount === 3) icon = Bot;
+          //else if (positionCount === 4) icon = Supp;
+          //positionCount++;
 
-          positionCount++;
+          if (player.primary_positions[0] === "top") icon = Top;
+          else if (player.primary_positions[0] === "jungle") icon = JG;
+          else if (player.primary_positions[0] === "mid") icon = Mid;
+          else if (player.primary_positions[0] === "adc") icon = Bot;
+          else if (player.primary_positions[0] === "support") icon = Supp;
 
           // Check for multiple primary/secondary positions
           // if so, build a string of the multiple positions for use in <span> tag
@@ -52,7 +57,7 @@ export default class TeamA extends Component {
               <img src={icon} alt="icon" className="player-icon" />
               <span>
                 {player.in_game_name} / {player.discord_name} @{" "}
-                {player.rank_level} {"{"}
+                {player.rank_level} {player.rank_tier} {"{"}
                 {primaryPositions}
                 {"}"} and {"{"}
                 {secondaryPositions}
@@ -61,7 +66,12 @@ export default class TeamA extends Component {
             </div>
           );
         });
-        return <div className="groupDiv"> {groupDiv} </div>;
+        return (
+          <div className="groupDiv">
+            {" "}
+            {groupDiv} <span className="badge">gcode: {group.group_code}</span>
+          </div>
+        );
       });
     }
     return this.teamGroups;
@@ -70,12 +80,9 @@ export default class TeamA extends Component {
   render() {
     this.createTeamBox();
     return (
-      <div className="TeamA-container">
-        {this.teamGroups.length > 0 ? (
-          this.createTeamBox()
-        ) : (
-          <div> No team added</div>
-        )}
+      <div className="Team-container">
+        <h2 className="team-h2-header"> Team A </h2>
+        {this.teamGroups.length > 0 ? this.createTeamBox() : ""}
       </div>
     );
   }

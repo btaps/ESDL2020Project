@@ -52,7 +52,7 @@ export default class TeamB extends Component {
               <img src={icon} alt="icon" className="player-icon" />
               <span>
                 {player.in_game_name} / {player.discord_name} @{" "}
-                {player.rank_level} {"{"}
+                {player.rank_level} {player.rank_tier} {"{"}
                 {primaryPositions}
                 {"}"} and {"{"}
                 {secondaryPositions}
@@ -61,7 +61,13 @@ export default class TeamB extends Component {
             </div>
           );
         });
-        return <div className="groupDiv"> {groupDiv} </div>;
+        return (
+          <div className="groupDiv">
+            {" "}
+            {groupDiv}
+            <span className="badge">gcode: {group.group_code}</span>{" "}
+          </div>
+        );
       });
     }
     return this.teamGroups;
@@ -70,12 +76,9 @@ export default class TeamB extends Component {
   render() {
     this.createTeamBox();
     return (
-      <div className="TeamB-container">
-        {this.teamGroups.length > 0 ? (
-          this.createTeamBox()
-        ) : (
-          <div> No team added</div>
-        )}
+      <div className="Team-container">
+        <h2 className="team-h2-header"> Team B </h2>
+        {this.teamGroups.length > 0 ? this.createTeamBox() : ""}
       </div>
     );
   }

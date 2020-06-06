@@ -5,6 +5,7 @@ import TeamA from "../components/TeamA";
 import TeamB from "../components/TeamB";
 import TeamC from "../components/TeamC";
 import TeamD from "../components/TeamD";
+import Unplaced from "../components/Unplaced";
 
 export default class Division extends Component {
   state = {
@@ -42,6 +43,7 @@ export default class Division extends Component {
         <TeamB team={this.state.teamB} />
         <TeamC team={this.state.teamC} />
         <TeamD team={this.state.teamD} />
+        <Unplaced />
       </div>
     );
   }

@@ -8,6 +8,8 @@ export default class DropDownMenu extends Component {
   //Display radio selection by sorting through JSON object
   state = {
     //trackOfItems: {},
+    serverArr: [],
+    server: null,
     classArr: [],
     class: null,
     weekArr: [],
@@ -20,6 +22,29 @@ export default class DropDownMenu extends Component {
   arrayOfDivisions = [];
   countHashMap = {};
   choice = {};
+
+  createServerOptions() {
+    if (this.state.serverArr.length > 0) {
+      let choices = this.state.serverArr.map((server) => {
+        let label =
+          this.countHashMap[server] > 1
+            ? server + ` (${this.countHashMap[server]})`
+            : server;
+        return (
+          <label>
+            <input
+              type="radio"
+              id={server}
+              onClick={this.makeChangesToChoice}
+              name="server"
+            />
+            {label}
+          </label>
+        );
+      });
+      return choices;
+    }
+  }
 
   createDayOptions(days) {
     if (this.state.dayArr.length > 0) {
@@ -100,8 +125,17 @@ export default class DropDownMenu extends Component {
     let Class = [];
     let week = [];
     let day = [];
+    let server = [];
+
     json.forEach((division) => {
       // check if a class has already poped up
+      if (this.countHashMap[division.server]) {
+        this.countHashMap[division.server]++;
+      } else {
+        this.countHashMap[division.server] = 1;
+        server.push(division.server);
+      }
+
       if (this.countHashMap[division.class]) {
         this.countHashMap[division.class]++;
       } else {
@@ -123,7 +157,12 @@ export default class DropDownMenu extends Component {
         day.push(division.day);
       }
     });
-    this.setState({ classArr: Class, weekArr: week, dayArr: day });
+    this.setState({
+      classArr: Class,
+      weekArr: week,
+      dayArr: day,
+      serverArr: server,
+    });
   }
 
   updateState(e) {
@@ -142,6 +181,9 @@ export default class DropDownMenu extends Component {
     } else if (e.target.name === "class") {
       this.setState({ class: e.target.id });
       this.choice.class = e.target.id;
+    } else if (e.target.name === "server") {
+      this.setState({ server: e.target.id });
+      this.choice.server = e.target.id;
     }
   };
 
@@ -149,10 +191,11 @@ export default class DropDownMenu extends Component {
   createDivisionOptions() {
     // Use Filter function to get corresponding options
     let dropDownMenuChoices = JSON.filter(
-      (divsion) =>
-        divsion.day === this.choice.day &&
-        divsion.week === this.choice.week &&
-        divsion.class === this.choice.class
+      (division) =>
+        division.server === this.choice.server &&
+        division.day === this.choice.day &&
+        division.week === this.choice.week &&
+        division.class === this.choice.class
     );
 
     // Loop through options and display as a option in drop down menu
@@ -194,6 +237,7 @@ export default class DropDownMenu extends Component {
       <div>
         <h1> Drop Down Menu</h1>
         <div>
+          <p> Server : {this.createServerOptions()}</p>
           <p> Class : {this.createClassOptions()}</p>
           <p> Week : {this.createWeekOptions()}</p>
           <p> Day : {this.createDayOptions()}</p>
